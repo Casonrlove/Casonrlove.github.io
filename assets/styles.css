@@ -1,0 +1,37 @@
+body {
+  /* background: url("pictures/island_background.jpg") no-repeat center center fixed; */
+  background-size: cover;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0; /* Set the same padding value as the original for thickness */
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 16px; /* Adjust padding for height and width */
+  font-size: 20px; /* Set the font size to match the original */
+}
+p {
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
