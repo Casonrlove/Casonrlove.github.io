@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.list1 li{
+.list1 li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 20px 16px; /* Adjust padding for height and width */
@@ -26,14 +26,6 @@ body {
     padding: 20px 16px;
 }
 
-.list2 {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0; /* Set the same padding value as the original for thickness */
-    background-color: #bcbaba;
-    display: flex;
-    justify-content: center;
-}
 .uniform-list {
 list-style-type: none; /* Remove default bullet points */
 padding: 0; /* Remove default padding */
@@ -44,9 +36,13 @@ padding: 0; /* Remove default padding */
 }
 
 .uniform-list li h2 {
-    margin-top: 0; /* Remove default margin for headings */
+    margin-top: 50px; /* Remove default margin for headings */
+    margin-left: 100px;
+    text-align: left;
 }
 
 .uniform-list li p {
     margin-top: 5px; /* Add spacing between heading and description */
+    margin-left: 100px;
+    text-align: left;
 }

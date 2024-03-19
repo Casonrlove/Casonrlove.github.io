@@ -25,29 +25,3 @@ p {
   font-size: 20px;
   padding: 20px 16px;
 }
-
-.list2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0; /* Set the same padding value as the original for thickness */
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  }
-
-.uniform-list {
-  list-style-type: none; /* Remove default bullet points */
-  padding: 0; /* Remove default padding */
-  }
-
-.style2li {
-  margin-bottom: 20px; /* Add spacing between list items */
-}
-
-.style2lih2 {
-  margin-top: 0; /* Remove default margin for headings */
-}
-
-.style2lip {
-  margin-top: 5px; /* Add spacing between heading and description */
-}
