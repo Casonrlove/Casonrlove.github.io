@@ -1,5 +1,5 @@
 body {
-  /* background: url("pictures/island_background.jpg") no-repeat center center fixed; */
+  background-image: url('/pictures/blue_background.jpg');
   background-size: cover;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #000;
@@ -15,7 +15,7 @@ ul {
   display: flex;
   justify-content: center;
 }
-li a {
+li a{
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 20px 16px; /* Adjust padding for height and width */
@@ -26,12 +26,28 @@ p {
   padding: 20px 16px;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1 em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
+.list2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0; /* Set the same padding value as the original for thickness */
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
   }
+
+.uniform-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  }
+
+.style2li {
+  margin-bottom: 20px; /* Add spacing between list items */
+}
+
+.style2lih2 {
+  margin-top: 0; /* Remove default margin for headings */
+}
+
+.style2lip {
+  margin-top: 5px; /* Add spacing between heading and description */
+}

@@ -1,0 +1,52 @@
+body {
+    background-image: url('/pictures/blue_background.jpg');
+    background-size: cover;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.list1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0; /* Set the same padding value as the original for thickness */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.list1 li{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px 16px; /* Adjust padding for height and width */
+    font-size: 20px; /* Set the font size to match the original */
+}
+.list1 p {
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0; /* Set the same padding value as the original for thickness */
+    background-color: #bcbaba;
+    display: flex;
+    justify-content: center;
+}
+.uniform-list {
+list-style-type: none; /* Remove default bullet points */
+padding: 0; /* Remove default padding */
+}
+
+.uniform-list li {
+    margin-bottom: 20px; /* Add spacing between list items */
+}
+
+.uniform-list li h2 {
+    margin-top: 0; /* Remove default margin for headings */
+}
+
+.uniform-list li p {
+    margin-top: 5px; /* Add spacing between heading and description */
+}
