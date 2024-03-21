@@ -48,3 +48,26 @@ padding: 0; /* Remove default padding */
     margin-right: 100px;
     text-align: left;
 }
+
+.contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0; /* Set the same padding value as the original for thickness */
+    /* background-color: #000000; */
+    display: flex;
+    justify-content: center;
+}
+.contact li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px 16px; /* Adjust padding for height and width */
+    font-size: 20px; /* Set the font size to match the original */
+}
+.contact p{
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.index {
+    text-align: 25%;
+}
