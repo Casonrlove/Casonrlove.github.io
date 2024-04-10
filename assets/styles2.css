@@ -1,19 +1,23 @@
 body {
-    background-image: url('/pictures/blue_background.jpg');
+    /* background-image: url('/pictures/blue_background.jpg'); */
+    background-color: #d9d9d9;
     background-size: cover;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
     text-align: center;
+    /* overflow-y: hidden; */
+    overflow-y: scroll;
 }
 .list1 {
     list-style-type: none;
     margin: 0;
     padding: 20px 0; /* Set the same padding value as the original for thickness */
-    background-color: #ffffff;
+    background-color: #c3c3c3;
     display: flex;
     justify-content: center;
+    /* position: fixed; */
 }
 .list1 li a{
     color: rgb(0, 0, 0);

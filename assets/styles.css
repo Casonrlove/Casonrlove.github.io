@@ -1,5 +1,6 @@
 body {
-  background-image: url('/pictures/blue_background.jpg');
+  /* background-image: url('/pictures/blue_background.jpg'); */
+  background-color: #9f9f9f;
   background-size: cover;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #000;
